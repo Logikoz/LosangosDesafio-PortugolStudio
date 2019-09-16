@@ -123,12 +123,26 @@ programa
 		g.desenhar_imagem(30, 400, enderecoImagem)
 		g.definir_cor(g.COR_PRETO)
 		g.definir_tamanho_texto(15.0)
+		g.definir_estilo_texto(falso, falso, falso)
 		g.desenhar_texto(370, 440, "Desenvolvido por")
 		g.definir_estilo_texto(verdadeiro, verdadeiro, falso)
 		g.desenhar_texto(485, 440, "Logikoz")
 		g.definir_tamanho_texto(10.0)
 		g.definir_estilo_texto(falso, falso, falso)
 		g.desenhar_texto(410, 460, "Portugol The Best")
+
+		//demais
+		
+		g.definir_cor(corRoxo)
+		g.definir_estilo_texto(verdadeiro, verdadeiro, verdadeiro)
+		g.definir_tamanho_texto(23.0)
+		g.definir_fonte_texto("Consolas")
+		g.desenhar_texto(220, 20, "Desafio Losangos")
+		g.definir_cor(g.COR_PRETO)
+		g.definir_tamanho_texto(12.0)
+		g.definir_estilo_texto(falso, verdadeiro, falso)
+		g.desenhar_texto(193, 75, "Eixo X")
+		g.desenhar_texto(375, 75, "Eixo Y")
 	}
 	
 	funcao vazio DesenharTela()
@@ -182,15 +196,3 @@ programa
 		retorne char
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1001; 
- * @DOBRAMENTO-CODIGO = [119, 140, 172];
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = vetor, matriz;
- */
